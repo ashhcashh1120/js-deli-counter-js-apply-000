@@ -14,10 +14,10 @@ function nowServing(katzDeliLine){
   }
 }
 
-function currentLine(katzDeliLine){
-  if(katzDeliline.length < 1){
+function currentLine(katzDeliLine) {
+  if (katzDeliLine.length < 1) {
     return "The line is currently empty.";
-  }else {
+  } else {
     var line = []
     katzDeliLine.forEach(function(name,index) {
         var num = index + 1;
